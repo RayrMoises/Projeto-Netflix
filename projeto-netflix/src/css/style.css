@@ -90,6 +90,7 @@ option {
 
 .menu .text-container .txp {
     font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .menu .text-container .txa {
@@ -122,4 +123,94 @@ option {
 
 .menu .text-container .input-container .btn:hover {
     background-color: rgb(226, 1, 1);
+}
+
+/* CSS DO CARTÃO DE PROMOÇÃO: */
+
+.container-cartao {
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+}
+
+.cartao-wrapper {
+    position: absolute;
+}
+
+.cartao {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: rgb( 14, 27, 79 );
+    background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
+    width: 1201px;
+    height: 150px;
+    padding: 22px;
+    gap: 20px;
+}
+
+.cartao img {
+    width: 80px;
+    height: 80px;
+}
+
+.cartao .promocao {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    font-size: 12px;
+}
+
+.cartao .promocao p{
+    font-size: 15px;
+}
+
+.cartao .promocao a {
+    color: #448ef4;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/* CSS OPÇÕES */
+
+.crc {
+    margin-top: 170px;
+    
+    color: white;
+}
+
+.crc .cr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crc .cr .text{
+    width: 600px;
+}
+
+.crc .cr .titulo {
+    font-size: 3rem;
+}
+
+.crc .cr .descricao {
+    margin-top: 25px;
+    font-size: 1.5rem;
+    width: 500px;
+}
+
+.crc .cr .imagens .imagem-de-fora{
+    width: 450px;
+    position: absolute;
+}
+
+.crc .cr .imagens video {
+    width: 480px;
+    padding: 50px;
+}
+
+.separador {
+    margin-top: 7rem;
+    background-color: #232323;
+    height: 10px;
 }
